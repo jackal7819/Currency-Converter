@@ -2,7 +2,7 @@
 
 ## React JS, useState, useEffect, NBU API, SCSS
 
-Demo - https://users-8q8p.onrender.com
+Demo - https://currency-converter-stde.onrender.com
 
 ## Available Scripts
 
