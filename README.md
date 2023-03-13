@@ -1,4 +1,4 @@
-# Currency Calculator
+# Currency Converter
 
 ## React JS, useState, useEffect, NBU API, SCSS
 
