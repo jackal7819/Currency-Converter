@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    user-select: none;
+}
+
+body {
+    background-color: #ff3cac;
+    background-image: linear-gradient(
+        225deg,
+        #ff3cac 0%,
+        #784ba0 50%,
+        #2b86c5 100%
+    );
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.App {
+    width: 400px;
+    background-color: #f9f2ed;
+    padding: 30px;
+    box-shadow: 0 10px 20px #0000000d;
+    border-radius: 15px;
+}
+
+.block {
+    input {
+        border: 1px solid #0000001a;
+        font-size: 3rem;
+        font-weight: bold;
+        padding: 20px 20px;
+        letter-spacing: 1.3px;
+        outline: none;
+        margin-top: 20px;
+        border-radius: 5px;
+        width: 100%;
+		margin-bottom: 30px;
+    }
+}
+
+.currencies {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #0000001a;
+    border-radius: 5px;
+    overflow: hidden;
+
+    li {
+        display: inline-flex;
+        padding: 10px 20px;
+        border-right: 1px solid #0000000d;
+        cursor: pointer;
+        justify-content: center;
+        flex: 1;
+
+        &:hover {
+            background-color: #00000008;
+        }
+
+        &:active {
+            background-color: #0000000d;
+        }
+
+        &.active {
+            background-color: #165bb6;
+            color: #fff;
+        }
+
+        &:last-of-type {
+            display: inline-flex;
+            align-items: center;
+            flex: 0 0 50px;
+            border-right: 0;
+
+            svg {
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}
